@@ -11,6 +11,7 @@
 	grid-template-rows: auto;
 }
 .screen{
+	margin:20px auto;
 	display: flex;
 	padding: 10px;
 	margin: 10px;
@@ -19,7 +20,7 @@ label{
 	font-family: sans-serif;
 	font-size: 14px solid;
 	color:lightgrey;
-	display: block;
+
 }
 
 .form-container{
@@ -100,7 +101,7 @@ h1{
 }
 
 .aside{
-	width: 23%;
+	width: 200px;
 	display: grid;
 	padding: 5px;
 	background-color: Lightgreen;
@@ -117,15 +118,16 @@ a{
 }
 .cv-content1{
 	position:relative;
-	top:0px;
+	
 }
 #personal-html{
 	padding-left:4px;
+	display:grid;
 }
 
 #Educational{
-
+	padding:0;
 	padding-left:4px;
-/*	display:flex;*/
+	display:block;
 
 }
