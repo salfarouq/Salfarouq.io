@@ -1,0 +1,2 @@
+var amaniCottagesMarker = L.marker([-6.1739, 39.2346]).addTo(map);
+amaniCottagesMarker.bindPopup("<b>Amani Cottages</b><br>Charming cottages with sea views").openPopup();

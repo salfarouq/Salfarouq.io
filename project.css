@@ -13,13 +13,14 @@
 .screen{
 	margin:20px auto;
 	display: flex;
-	padding: 10px;
+	padding: 122px;
 	margin: 10px;
+
 }
 label{
 	font-family: sans-serif;
 	font-size: 14px solid;
-	color:lightgrey;
+	color:darkgrey;
 
 }
 
@@ -88,11 +89,19 @@ h1{
 }
 
 .cv-header{
-	display: flex;
+	/*display: flex;
 	background-color: green;
 	color: white;
 	padding: 3px;
 	height: 60px;
+	position:;*/
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: green;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .cv-content{
@@ -101,6 +110,7 @@ h1{
 }
 
 .aside{
+	margin-top:35px;
 	width: 200px;
 	display: grid;
 	padding: 5px;
@@ -130,4 +140,16 @@ a{
 	padding-left:4px;
 	display:block;
 
+}
+#skill{
+	padding-left:4px;
+	display:block;
+	display:grid;
+	padding-left:4px;
+}
+#Course{
+	padding-left:4px;
+	display:block;
+	display:grid;
+	padding-left:4px;
 }
