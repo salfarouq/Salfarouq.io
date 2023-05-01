@@ -1,0 +1,130 @@
+.form-content{
+	padding: 2px;
+	display: grid;
+	grid-template-rows:auto;
+	padding-right: 2px;
+}
+.main{
+	background: linear-gradient(white,green);
+	display: grid;
+	grid-template-rows: auto;
+}
+.screen{
+	display: flex;
+	padding: 0px;
+	margin:4 auto;
+}
+label{
+	font-family: sans-serif;
+	font-size: 14px solid;
+	color:lightgrey;
+	display: block;
+}
+
+.form-container{
+
+	margin: 0 auto;
+	height: 300px;
+	width: 345px;
+	padding: 4px;
+	border-style: solid;
+	border-color:lightgreen;
+	border-radius: 5px 5px 0 0;
+	margin-right: 1px;
+}
+.footer{
+
+	margin-bottom: 0px;
+	background-color: white;
+	dispalay: flex;
+	flex-wrap: wrap;
+}
+
+.form-header{
+	text-align: center;
+	color: white;
+	background-color: lightgreen;
+	/*border-radius: 5px 5px 0 0;*/
+	padding: 10px;
+
+}
+span{
+	padding: 5px;
+}
+input{
+	font-size: 15px;
+	width: 330px;
+	height: 28px;
+
+}
+
+#button{
+
+	padding: 6px;
+	margin: 3px;
+	height: 28px;
+	background-color: lightblue;
+	color: white;
+	border-style: none;
+}
+.content{
+color: white;
+padding: 5px;
+width: 490px;
+margin: 5px;
+}
+h1{
+
+	font-family: sans-serif;
+	font-size: 56px;
+
+}
+.cv{
+	display: grig;
+	grid-template-rows: 5% 90% 5%;
+
+}
+
+.cv-header{
+	display: flex;
+	background-color: green;
+	color: white;
+	padding: 3px;
+	height: 60px;
+}
+
+.cv-content{
+	padding: 2px;
+
+}
+
+.aside{
+	width: 23%;
+	display: grid;
+	padding: 5px;
+	background-color: Lightgreen;
+	color: white;
+}
+#litle:hover{
+	display: block;
+	background-color: green;
+}
+a{
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+.cv-content1{
+	position:relative;
+	top:0px;
+}
+#personal-html{
+	padding-left:4px;
+}
+
+#Educational{
+
+	padding-left:4px;
+/*	display:flex;*/
+
+}
