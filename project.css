@@ -1,3 +1,8 @@
+* {
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+}
 .form-content{
 
 	padding: 2px;
@@ -17,6 +22,7 @@
 	margin: 10px;
 
 }
+
 label{
 	font-family: sans-serif;
 	font-size: 14px solid;
@@ -102,6 +108,7 @@ h1{
   background-color: green;
   padding: 20px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  display:flex;
 }
 
 .cv-content{
@@ -110,13 +117,25 @@ h1{
 }
 
 .aside{
-	margin-top:35px;
-	width: 200px;
-	display: grid;
-	padding: 5px;
-	background-color: Lightgreen;
-	color: white;
+	width: 0;
+	height:254px;
+	position: fixed;
+	z-index: 1;
+	top: 50px;
+	left: 0px;
+	background-color:lightgreen;;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 20px;
+	padding-left:4px;
 }
+.aside .closebtn {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+  }
 #litle:hover{
 	display: block;
 	background-color: green;
@@ -131,15 +150,21 @@ a{
 	
 }
 #personal-html{
-	padding-left:4px;
-	display:grid;
+	margin-top:70px;
+	display:flex;
+	flex-direction: column;
 }
 
 #Educational{
 	padding:0;
 	padding-left:4px;
 	display:block;
-
+}
+h3{
+	background-color:lightgrey;
+	text-align:center;
+	color:green;
+	
 }
 #skill{
 	padding-left:4px;
@@ -152,4 +177,27 @@ a{
 	display:block;
 	display:grid;
 	padding-left:4px;
+}
+
+@media screen and(max-width:900px){
+	#Educational{
+		max-width:700px ;
+	}
+	body{
+		max-width:700px;
+	}
+	div{
+		max-width:500px;
+	}
+	h1 {
+		font-family: sans-serif;
+		font-size: 56px;
+		text-align: center;
+	}
+	.main {
+		background: linear-gradient(white,green);
+		display: flex;
+		flex-direction: column;
+		font-size: auto;
+	}
 }

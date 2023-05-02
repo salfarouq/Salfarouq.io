@@ -8,9 +8,11 @@
 	<script type="text/javascript" src="project.js"></script>
 </head>
 <body class="cv"><div>
-	<div class="cv-header"></div>
+	<div class="cv-header">
+		<span style="cursor:pointer" onclick="menu()">&#9776Menu</span></div>
 		<div class="cv-content">	
 		<div class="aside">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 			<span id="litle">
 				<a href="#personal-html">Personal Profile</a>
 			</span>
@@ -21,18 +23,18 @@
 			<span id="litle"><a href="#work">Working Experience</a></span>
 			<span id="litle"><a href="#skill">Skills</a></span>
 			<span id="litle"><a href="#Course">Proffesional Course</a></span>
-			<span id="litle">Projects</span>
+			<span id="litle"><a href="#Project">Projects</a></span>
 			<span id="litle"></span>
 		</div>
 		<div class="cv-content1">
 			<div id ="personal-html">
-			<span><label style="background-color:lightgrey; color:green; text-align: center;"><h3 style="background-color:lightgrey;text-align:center" >Personal Profile</h3></label></span>
+			<span><label ><h3 >Personal Profile</h3></label></span>
 			<span><label>Name :Omar Abdall Ally</label></span>
 			<span><label>Address: Magogoni-Zanzibar</label></span><span><label>Gender: Male</label></span><span><label>Merital Status: unmarried</label></span><span><label>Address: Magogoni-Zanzibar</label></span>
 			<span><label>Phone No:0788083267</label></span>
 		</div>
 		<div id="Educational">
-			<span><label style="background-color:lightgrey; color:green; text-align: center;"><h3 style="background-color:lightgrey;text-align:center" >
+			<span><label ><h3 >
 			Educational Background</h3></label></span>
 			<label style="padding:10px; color:green;margin:10px">Years</label><Label style="padding:10px; color:green;margin:10px;width:2303px">Program Taken</Label><label style="padding:80px;margin:10px; color:green;">Institution</label><br>
 			<span>2021-</span>
@@ -41,27 +43,27 @@
 			<br>
 			<span>2019-2020</span>
 			<span>A-level Education</span>
-			<span style="padding:80px;margin:10px">Zanzibar Commercial</span>
+			<span>Zanzibar Commercial</span>
 			<br>
 			<span>2015-2018</span>
 			<span>O-level Education</span>
-			<span style="padding:80px;margin:10px">Zanzibar Commercial</span>
+			<span>Zanzibar Commercial</span>
 			<br>
 			<span>2008-2014</span>
 			<span>Primary Education level</span>
-			<span style="padding:46px;margin:10px">Nyerere P School</span>
+			<span >Nyerere P School</span>
 			<br>
 			<span>2005-2007</span>
 			<span>Nursery Education level</span>
-			<span style="padding:46px;margin:10px">Isqaama Nur School</span>
+			<span >Isqaama Nur School</span>
 			<br>
 		</div>
 			<div id="work">
-				<span><label style="background-color:lightgrey; color:green; text-align: center;"><h3 style="background-color:lightgrey;text-align:center" >
+				<span><label ><h3>
 			Working Experience</h3></label></span>
 			</div>
 			<div id="skill">
-				<span><label style="background-color:lightgrey; color:green; text-align: center;"><h3 style="background-color:lightgrey;text-align:center" >
+				<span><label ><h3>
 			Skills</h3></label></span>
 			<span><label>Qur-an Recitation</label></span>
 			<span><label>Problem Solving Skill</label></span>
@@ -71,7 +73,7 @@
 			<span><label>Drawing Skill</label></span>
 			</div>
 			<div id="Course">
-				<span><label style="background-color:lightgrey; color:green; text-align: center;"><h3 style="background-color:lightgrey;text-align:center" >
+				<span><label ><h3 >
 			Proffesional Courses</h3></label></span>
 			<span><label>C++ Programming course</label></span>
 			<span><label>Software Development Course</label></span>

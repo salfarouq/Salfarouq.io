@@ -17,3 +17,11 @@ document.addEventListener('DOMContentLoaded',function(){
 	};
 	return false;
 })
+ 
+function menu(){
+	document.querySelector('.aside').style.width="200px";
+}
+
+function closeNav(){
+	document.querySelector('.aside').style.width="0";
+}
