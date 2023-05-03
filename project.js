@@ -20,8 +20,19 @@ document.addEventListener('DOMContentLoaded',function(){
  
 function menu(){
 	document.querySelector('.aside').style.width="200px";
+	document.querySelector('.cv-content').style.marginLeft="200px";
 }
 
 function closeNav(){
 	document.querySelector('.aside').style.width="0";
+	document.querySelector('.cv-content').style.marginLeft="4px";
+
 }
+
+
+// document.addEventListener('mouseover',function(){
+// 	document.querySelector('.aside').style.width="200px";
+// });
+// document.addEventListener('mouseout',function(){
+// 	document.querySelector('.aside').style.width="0";
+
