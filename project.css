@@ -103,6 +103,14 @@ h1{
  overflow:hidden;
  z-index:1;
 }
+img{
+	right:14px;
+	width:80px;
+	height:80px;
+	border-radius:50%;
+	position:fixed;
+	transition:0.5s;
+}
 
 .cv-content{
 	padding: 2px;
@@ -237,4 +245,6 @@ h3{
 		margin-top: 190px;
 		height: 310px;
 	}
+
+
 }

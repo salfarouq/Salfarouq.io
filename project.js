@@ -28,7 +28,25 @@ function closeNav(){
 	document.querySelector('.cv-content').style.marginLeft="4px";
 
 }
+function picha(){
+	const picture=document.querySelector('img');
+	picture.style.width="150px";
+	picture.style.height="150px";
+	picture.style.padding="40px";
+}
 
+// document.addEventListener("mouseover",function(){
+// 	const picture=document.querySelector('img');
+// 	picture.style.width="150px";
+// 	picture.style.height="150px"
+// 	picture.style.padding="45px";
+// });
+// document.addEventListener("mouseout",function(){
+// 	const picture=document.querySelector('img');
+// 	picture.style.width="80px";
+// 	picture.style.height="80px"
+
+// })
 
 // document.addEventListener('mouseover',function(){
 // 	document.querySelector('.aside').style.width="200px";
